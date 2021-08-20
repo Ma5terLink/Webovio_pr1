@@ -38,4 +38,21 @@ const menuSalonsBtn = document.querySelector('.menu__linkbar-btn'),
     });
 }); */
 
+// СЛАЙДЕР SLICK
+$(document).ready(function() {
+    $('.FS_slider').slick({
+        arrows: false, //стрелки.
+        dots: false, //"кнопки" (доты) выбора слайдов.
+        autoplay: true, //автопрокрутка.
+        autoPlaySpeed: 500, //скорость автопрокрутки.
+
+    });
+    $('.FS_slider2').slick({
+        arrows: false, //стрелки.
+        dots: false, //"кнопки" (доты) выбора слайдов.
+        autoplay: true, //автопрокрутка.
+        autoPlaySpeed: 500, //скорость автопрокрутки.
+
+    });
+});
 

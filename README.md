@@ -4,6 +4,8 @@ My implementation of the layout of a simple landing project. The template was fo
 
 Ссылка: https://www.figma.com/file/2rdy1qjBTl7D6BAC8S4qlf/Webovio?node-id=0%3A1
 
+(20-08-21 22:20)
+- Оказалось что в секции project используется слайдер на карточках. Добавил slick-слайдер.
 
 (20-08-21 21:15)
 - Собрана четвёртая секция project. Нужно разобраться как менять нужные параметры в одинаковых блоках, идущих "друг-за-другом" либо "вперемешку" используя одно описание стилей блока.
