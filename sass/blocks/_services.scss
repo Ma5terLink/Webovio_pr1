@@ -1,0 +1,64 @@
+.services   {
+    position: relative;
+    margin: 0 auto;
+    width: 1109px;
+    min-height: 644px;
+    &__info {
+        position: absolute;
+        width: 475px;
+        top: 244px;
+        &-text {
+            color: rgba(77, 83, 60, 0.9);
+        }
+        &-title {
+            padding-top: 29px;
+            color: #4D533C;
+        }
+        &-descr {
+            padding-top: 35px;
+            color: rgba(33, 56, 66, 0.6);
+        }
+        &-link {
+            padding-top: 42px;
+            a {
+                color: #D4D6D4;
+                &:hover {
+                    color: #D4D6D4;
+                }
+            }
+        }
+    }
+    &__persona {
+        position: absolute;
+        width: 474px;
+        height: 644px;
+        top: 0;
+        left: 635px;
+        background: #FFFFFF;
+        box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+        &-comment {
+            padding: 244px 8px 0 40px;
+            color: #4d533c;
+        }
+        &__info {
+            display: flex;
+            padding: 50px 0 0 40px;
+            &-photo {
+                width: 90px;
+            }
+            &-wrapper {
+                padding-left: 30px;
+                align-self: center;
+            }
+            &-name {
+                color: #4D533C;
+            }
+            &-status {
+                padding-top: 6px;
+                color: #152934;
+            }
+        }
+
+    }
+
+}
