@@ -1,0 +1,72 @@
+.deation {
+    position: relative;
+    margin: 0 auto;
+    width: 1110px;
+    height: 611px;
+    top: -130px;
+    &__line {
+        position: relative;
+        height: 1px;
+        background: rgba(33, 56, 66, 0.0955529);
+        z-index: -1;
+    }
+    &__wrapper {
+        padding-top: 149px;
+    }
+    &__title {
+        width: 607px;
+    }
+    &__cardsWrapper {
+        display: flex;
+        padding-top: 60px;
+        justify-content: space-between;
+    }
+    &__card {
+        width: 255px;
+        height: 309px;
+        padding: 27px 30px 0 30px;
+        &-title {
+            text-transform: uppercase;
+            color: #4D533C;
+        }
+        &-descr {
+            padding-top: 20px;
+            color: rgba(33, 56, 66, 0.6);
+        }
+        &-link {
+            padding-top: 30px;
+            a {
+                color: #d4d6d4;
+                &:hover {
+                    color: #d4d6d4;
+                }
+            }
+        }
+        &-bg {
+            margin-top: 30px;            
+            height: 6px;
+            background: #e84f33;
+            border-radius: 0px 0px 4px 4px;
+        }
+    }
+    &__cardCont {
+        min-height: 192px;
+    }
+
+}
+
+
+
+
+
+.link-active {
+    a {
+        color: #ffd723;
+        &:hover {
+            color: #ffd723;
+        }
+    }
+}
+.bg-active {
+    visibility: hidden;
+}
