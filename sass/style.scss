@@ -1,0 +1,64 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import 'libs/fonts';
+
+@import 'base/mixins';
+
+* {
+    position: initial;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.container {
+    position: relative;    
+    max-width: 1109px;
+    margin: 0 auto;    
+}
+
+
+:root {
+    //colors
+    --color-black: #000;
+    --color-white: #fff;
+    //font sizes
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-36: 36px;
+    --fs-60: 60px;
+    //line hights
+    --lh-21: 18px;
+    --lh-21: 21px;
+    --lh-24: 24px;
+    --lh-26: 26px;
+    --lh-33: 33px;
+    --lh-34: 34px;
+    --lh-38: 38px;
+    --lh-40: 40px;
+    --lh-46: 46px;
+    --lh-48: 48px;
+    --lh-54: 54px;
+    --lh-72: 74px;
+}
+
+a {
+    color: var(--color-black);
+    &:hover {
+        text-decoration: none;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+@import 'blocks/txtFontStyles';
+@import 'blocks/policy';
+@import 'blocks/pageup';
+@import 'blocks/media';
