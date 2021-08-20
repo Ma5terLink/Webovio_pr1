@@ -1,0 +1,27 @@
+.sliderBlock {
+    width: auto;
+    min-height: 811px;
+    background: url('../../img/slide-1.png') center center no-repeat;
+    z-index: 1;
+    &__textBlock {
+        &__wrapper {
+            position: absolute;
+            width: 616px;
+            /* height: 412px; */
+            top: 187px;
+            left: 166px;
+            color: var(--color-white);
+        }
+        &-title {
+            padding-top: 22px;
+        }
+        &-descr {
+            padding-top: 24px;
+        }
+        &-link {
+            padding-top: 45px;
+        }
+
+
+    }
+}

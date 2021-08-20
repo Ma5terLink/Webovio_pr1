@@ -8,14 +8,15 @@
     position: initial;
     padding: 0;
     margin: 0;
-    font-family: 'Gilroy';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
+    /* background-color: transparent; */
 }
 
 .container {
     position: relative;    
-    max-width: 1109px;
+    max-width: 1440px;
     margin: 0 auto;    
 }
 
@@ -24,6 +25,7 @@
     //colors
     --color-black: #000;
     --color-white: #fff;
+    --color-transparent: transparent;
     //font sizes
     --fs-14: 14px;
     --fs-16: 16px;
@@ -43,13 +45,14 @@
     --lh-46: 46px;
     --lh-48: 48px;
     --lh-54: 54px;
-    --lh-72: 74px;
+    --lh-74: 74px;
 }
 
 a {
-    color: var(--color-black);
+    color: #ffd723;
+    text-decoration: underline;
     &:hover {
-        text-decoration: none;
+        color: #ffd723
     }
 }
 h1, h2, h3, h4, h5, h6 {
@@ -60,5 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @import 'blocks/txtFontStyles';
 @import 'blocks/policy';
+@import 'blocks/navigation';
+@import 'blocks/sliderBlock';
+
 @import 'blocks/pageup';
 @import 'blocks/media';
