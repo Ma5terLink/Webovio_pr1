@@ -8,7 +8,7 @@ $(window).scroll(function () {
     }
 });
 
-$("a[href^='#up']").click(function () { // При клике на ссылку, в которой значение атрибута href начинается с #:
+$("a[href^='#up']").click(function () { // При клике на ссылку, в которой значение атрибута href начинается с #up:
     var _href = $(this).attr("href");  // создаём переменную _href и записываем в неё значение аттрибута href из кликнутой ссылки
     $("html, body").animate({scrollTop: '0'});
     /* КАК РАБОТАЕТ ФУНКЦИЯ НИЖЕ - ПОКА НЕ ПОНЯЛ..
@@ -17,7 +17,7 @@ $("a[href^='#up']").click(function () { // При клике на ссылку, 
 });
 
 // Переключение классов по нажатию куда-либо
-window.addEventListener('DOMContentLoaded', () => {
+/* window.addEventListener('DOMContentLoaded', () => {
 const menuSalonsBtn = document.querySelector('.menu__linkbar-btn'),
         salonsLinks = document.querySelector('.ourSalonsLinks'),
         salonsItem = document.querySelectorAll('.ourSalonsLinks__item'),
@@ -36,6 +36,6 @@ const menuSalonsBtn = document.querySelector('.menu__linkbar-btn'),
     menuSalonsBtn.addEventListener('click', () => {
         salonsLinks.classList.toggle('active')
     });
-});
+}); */
 
 
