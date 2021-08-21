@@ -10,13 +10,13 @@
         display: flex;
         margin: 150px 0 0 165px;
         width: 976px;
-        align-self: center;
+        height: 102px;
         &-title {
-            display: inline-table;
-            width: 325px;
+            min-width: 340px;
             color: #4D533C;
         }
         &-descr {
+            align-self: center;
             margin-left: 133px;
             color: rgba(33, 56, 66, 0.6);
         }
@@ -112,7 +112,6 @@
             height: 585px;
         }
         &-LeftBlock {
-            display: inline-table;
             position: relative;
             width: 475px;
             top: 80px;

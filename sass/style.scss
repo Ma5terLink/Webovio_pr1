@@ -1,8 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
-@import 'libs/fonts';
-
-@import 'base/mixins';
 
 * {
     position: initial;
@@ -69,6 +66,6 @@ h1, h2, h3, h4, h5, h6 {
 @import 'blocks/services';
 @import 'blocks/project';
 @import 'blocks/deation';
-
+@import 'blocks/footer';
 @import 'blocks/pageup';
 @import 'blocks/media';
