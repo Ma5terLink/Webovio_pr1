@@ -5,6 +5,8 @@ My implementation of the layout of a simple landing project. The template was fo
 Ссылка на шаблон: https://www.figma.com/file/2rdy1qjBTl7D6BAC8S4qlf/Webovio?node-id=0%3A1
 
 
+(31-08-21 04:30)
+- Внесены мелкие правки: подсветка ссылок, ссылка на Google Maps.
 
 (21-08-21 22:20)
 - Внесены мелкие правки: пути к некоторым файлам скорректированы.
